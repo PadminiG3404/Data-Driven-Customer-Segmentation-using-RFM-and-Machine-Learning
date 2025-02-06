@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify the most profitable products and the characteristics of the most loyal customers. The insights derived will help the marketing team optimize targeting strategies, enhance product positioning, and maximize profitability.  
 
-![image](https://github.com/user-attachments/assets/bea3051b-ee6e-401c-a2e9-8e603417e710)
+![image](https://github.com/user-attachments/assets/cd8b9bc6-190c-4cf8-942f-eab17a55c131)
 
 ### **Key Objectives**  
 - Identify the **top 3 most profitable products** based on revenue.  
@@ -13,9 +13,9 @@ This project focuses on segmenting customers based on their purchasing behavior 
 
 ### **Key Findings**  
 - **Top Selling Products:**  
-  1. Dorito Corn Chip Supreme  
-  2. Smiths Crinkle Chips (Original)  
-  3. Smiths Crinkle Chips (Salt & Vinegar)
+  - Dorito Corn Chip Supreme  
+  - Smiths Crinkle Chips (Original)  
+  - Smiths Crinkle Chips (Salt & Vinegar)
 
 ![image](https://github.com/user-attachments/assets/fc145b4a-a034-49f0-b4eb-26d5b363a04f)
 
@@ -42,10 +42,11 @@ This project focuses on segmenting customers based on their purchasing behavior 
 **`purchase_behaviour.csv`** - Contains customer demographic details based on loyalty card usage.  
 
 ### 2️⃣ Transaction Data
-**`transaction_data.csv`** - Records all customer transactions, including products purchased and spending details.  
+**`transaction_data.csv`** - Records all customer transactions, including products purchased and spending details. 
 
 ### Download the datasets from the below google drive link
 https://drive.google.com/drive/folders/1JLHEIQp95b6Jo3iiXGYfIdKUrs8uWJn1
+
 ---
 
 ## 🛠️ Methodology  

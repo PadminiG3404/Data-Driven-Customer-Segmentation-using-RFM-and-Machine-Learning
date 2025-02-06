@@ -16,11 +16,13 @@ This project focuses on segmenting customers based on their purchasing behavior 
   1. Dorito Corn Chip Supreme  
   2. Smiths Crinkle Chips (Original)  
   3. Smiths Crinkle Chips (Salt & Vinegar)
+
 ![image](https://github.com/user-attachments/assets/fc145b4a-a034-49f0-b4eb-26d5b363a04f)
 
 - **Most Loyal Customers:**  
   - Older Singles/Couples & Older Families  
   - Primarily in the **Mainstream & Budget** segments
+
 ![image](https://github.com/user-attachments/assets/08019875-bdd8-4184-802d-32a92c024c47)
 
 - **Spending Patterns:**  
@@ -42,6 +44,8 @@ This project focuses on segmenting customers based on their purchasing behavior 
 ### 2️⃣ Transaction Data
 **`transaction_data.csv`** - Records all customer transactions, including products purchased and spending details.  
 
+### Download the datasets from the below google drive link
+https://drive.google.com/drive/folders/1JLHEIQp95b6Jo3iiXGYfIdKUrs8uWJn1
 ---
 
 ## 🛠️ Methodology  
@@ -73,16 +77,21 @@ This project focuses on segmenting customers based on their purchasing behavior 
 
 ## 📊 Visualizations
 - **Scatter Plot:** Customer segments based on total transactions & spending
-  ![image](https://github.com/user-attachments/assets/00e92661-4ed5-4084-b7e9-fe2f5ab9a70b)
+
+![image](https://github.com/user-attachments/assets/00e92661-4ed5-4084-b7e9-fe2f5ab9a70b)
 
 - **3D Plot:** RFM-based customer segmentation
-  ![image](https://github.com/user-attachments/assets/5c5ef498-49ae-413a-b622-1343c019ba84)
+
+![image](https://github.com/user-attachments/assets/5c5ef498-49ae-413a-b622-1343c019ba84)
 
 - **Bar Charts:** Spending analysis per cluster
-  ![image](https://github.com/user-attachments/assets/194c4969-914f-43ba-972e-a8356fe22bb5)
+
+![image](https://github.com/user-attachments/assets/3466dac0-d815-43fe-b759-0fa835620f17)
+
 
 - **Heatmap:** Spending patterns by **LIFESTAGE** & **PREMIUM_CUSTOMER**
-  ![image](https://github.com/user-attachments/assets/6fa94d7f-9a96-484d-9185-5c0527f9b5a6)
+
+![image](https://github.com/user-attachments/assets/6fa94d7f-9a96-484d-9185-5c0527f9b5a6)
 
 ---
 

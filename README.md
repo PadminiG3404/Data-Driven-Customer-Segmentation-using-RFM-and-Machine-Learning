@@ -2,7 +2,8 @@
 
 ## 📌 Project Overview
 This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify the most profitable products and the characteristics of the most loyal customers. The insights derived will help the marketing team optimize targeting strategies, enhance product positioning, and maximize profitability.  
-![image](https://github.com/user-attachments/assets/bea3051b-ee6e-401c-a2e9-8e603417e710)
+
+![image](https://github.com/user-attachments/assets/bea3051b-ee6e-401c-a2e9-8e603417e710 =250x250)
 
 ### **Key Objectives**  
 - Identify the **top 3 most profitable products** based on revenue.  
@@ -41,7 +42,7 @@ This project focuses on segmenting customers based on their purchasing behavior 
 ### 2️⃣ Transaction Data
 **`transaction_data.csv`** - Records all customer transactions, including products purchased and spending details.  
 
-===
+---
 
 ## 🛠️ Methodology  
 
@@ -72,18 +73,18 @@ This project focuses on segmenting customers based on their purchasing behavior 
 
 ## 📊 Visualizations
 - **Scatter Plot:** Customer segments based on total transactions & spending
-![image](https://github.com/user-attachments/assets/00e92661-4ed5-4084-b7e9-fe2f5ab9a70b)
+  ![image](https://github.com/user-attachments/assets/00e92661-4ed5-4084-b7e9-fe2f5ab9a70b)
 
 - **3D Plot:** RFM-based customer segmentation
-![image](https://github.com/user-attachments/assets/5c5ef498-49ae-413a-b622-1343c019ba84)
+  ![image](https://github.com/user-attachments/assets/5c5ef498-49ae-413a-b622-1343c019ba84)
 
 - **Bar Charts:** Spending analysis per cluster
-![image](https://github.com/user-attachments/assets/194c4969-914f-43ba-972e-a8356fe22bb5)
+  ![image](https://github.com/user-attachments/assets/194c4969-914f-43ba-972e-a8356fe22bb5)
 
-- **Heatmap:** Spending patterns by **LIFESTAGE** & **PREMIUM_CUSTOMER**  
-![image](https://github.com/user-attachments/assets/6fa94d7f-9a96-484d-9185-5c0527f9b5a6)
+- **Heatmap:** Spending patterns by **LIFESTAGE** & **PREMIUM_CUSTOMER**
+  ![image](https://github.com/user-attachments/assets/6fa94d7f-9a96-484d-9185-5c0527f9b5a6)
 
-===
+---
 
 ## 🛠️ Tech Stack
 - **Programming Language:** Python 🐍  

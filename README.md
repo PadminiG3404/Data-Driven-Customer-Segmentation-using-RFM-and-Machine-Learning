@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify the most profitable products and the characteristics of the most loyal customers. The insights derived will help the marketing team optimize targeting strategies, enhance product positioning, and maximize profitability.  
 
-![image](https://github.com/user-attachments/assets/bea3051b-ee6e-401c-a2e9-8e603417e710 =250x250)
+![image](https://github.com/user-attachments/assets/bea3051b-ee6e-401c-a2e9-8e603417e710)
 
 ### **Key Objectives**  
 - Identify the **top 3 most profitable products** based on revenue.  

@@ -57,7 +57,6 @@ To execute the analysis, open the Jupyter Notebook and run all cells:
 ```sh
 jupyter notebook customer_segmentation.ipynb
 ```
-## 📌 Workflow  
 
 ### 2️⃣ Follow the Workflow:  
 - **Data Preprocessing:** Load and clean customer transaction data.  

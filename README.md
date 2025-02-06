@@ -1,15 +1,41 @@
 # Data Driven Customer Segmentation using RFM and Machine Learning
 
 ## 📌 Project Overview
-This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify distinct customer groups to improve targeted marketing strategies and enhance customer retention.
+This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify the most profitable products and the characteristics of the most loyal customers. The insights derived will help the marketing team optimize targeting strategies, enhance product positioning, and maximize profitability.  
+
+### **Key Objectives**  
+- Identify the **top 3 most profitable products** based on revenue.  
+- Analyze **customer loyalty** based on purchasing behavior.  
+- Understand **lifestage and spending patterns** of the most loyal customers.  
+- Provide data-driven recommendations for **marketing and sales strategies**.  
+
+### **Key Findings**  
+- **Top Selling Products:**  
+  1. Dorito Corn Chip Supreme  
+  2. Smiths Crinkle Chips (Original)  
+  3. Smiths Crinkle Chips (Salt & Vinegar)  
+- **Most Loyal Customers:**  
+  - Older Singles/Couples & Older Families  
+  - Primarily in the **Mainstream & Budget** segments  
+- **Spending Patterns:**  
+  - Older families in the budget segment are the highest spenders.  
+  - Younger singles spend the least.  
+
+### **Next Steps**
+- Implement **personalized marketing campaigns** for high-value customer segments.  
+- Introduce **bundling strategies** for best-selling products.  
+- Expand **customer loyalty programs** to encourage repeat purchases.
+
+---
 
 ## 📂 Dataset Description  
 
 ### 1️⃣ Customer Purchase Behavior 
-**`purchase_behaviour.csv`** - Contains customer demographic details based on loyalty card usage.  
+**`purchase_behaviour.csv`**[Uploading purchase_behaviour.csv…]()
+ - Contains customer demographic details based on loyalty card usage.  
 
 ### 2️⃣ Transaction Data
-- **`transaction_data.csv`** – Records all customer transactions, including products purchased and spending details.  
+**`transaction_data.csv`** – Records all customer transactions, including products purchased and spending details.  
 
 ## 🛠️ Methodology  
 

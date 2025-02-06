@@ -6,44 +6,35 @@ This project focuses on segmenting customers based on their purchasing behavior 
 ## 📂 Dataset Description  
 
 ### 1️⃣ Customer Purchase Behavior (`purchase_behaviour`)  
-Contains customer demographic details based on loyalty card usage.  
-
-#### 🔹 Columns:  
-- **`LYLTY_CARD_NBR`** → Unique customer ID  
-- **`LIFESTAGE`** → Customer life stage (e.g., Young Singles/Couples, Older Families)  
-- **`PREMIUM_CUSTOMER`** → Customer category (Budget, Mainstream, Premium)  
+**`purchase_behaviour.csv`** - Contains customer demographic details based on loyalty card usage.  
 
 ### 2️⃣ Transaction Data (`transaction_data`)  
-Records all customer transactions, including products purchased and spending details.  
+- **`transaction_data.csv`** – Records all customer transactions, including products purchased and spending details.  
 
-#### 🔹 Columns:  
-- **`DATE`** → Purchase date (integer format)  
-- **`STORE_NBR`** → Store number where the transaction occurred  
-- **`LYLTY_CARD_NBR`** → Customer ID (matches `purchase_behaviour`)  
-- **`TXN_ID`** → Unique transaction ID  
-- **`PROD_NBR`** → Product ID  
-- **`PROD_NAME`** → Product name (e.g., "Natural Chip Company Sea Salt 175g")  
-- **`PROD_QTY`** → Quantity of product purchased  
-- **`TOT_SALES`** → Total transaction amount (in $)  
+## 🛠️ Methodology  
 
-## 🚀 Methodology
-1. **Data Preprocessing**  
-   - Clean missing values  
-   - Convert categorical variables  
-   - Scale numerical features using `StandardScaler`  
+### 1️⃣ Data Preprocessing  
+- Converted date format from integer to datetime.  
+- Removed anomalies (negative/zero values in `TOT_SALES` & `PROD_QTY`).  
+- Dropped duplicates and standardized product names.  
+- Merged transaction data with customer demographics.  
 
-2. **RFM Analysis**  
-   - Compute **Recency, Frequency, and Monetary (RFM)** scores  
-   - Standardize RFM values  
+### 2️⃣ Exploratory Data Analysis (EDA)  
+- Identified **top-selling** and **most profitable** products.  
+- Analyzed customer spending patterns by **lifestyle & premium category**.  
+- Visualized transaction trends using bar charts and heatmaps.  
 
-3. **K-Means Clustering**  
-   - Determine optimal number of clusters using the **Elbow Method**  
-   - Apply **K-Means clustering** to segment customers  
+### 3️⃣ RFM Segmentation  
+- **Recency**: Days since last purchase.  
+- **Frequency**: Total transactions per customer.  
+- **Monetary**: Total spending per customer.  
+- Identified **top loyal customers** based on RFM scores.  
 
-4. **Cluster Visualization & Analysis**  
-   - 2D scatter plots for transaction-based clustering  
-   - 3D visualization of RFM-based clusters  
-   - Spending behavior analysis per segment  
+### 4️⃣ Customer Clustering (K-Means)  
+- Standardized RFM data for clustering.  
+- Determined optimal clusters using **Elbow Method & Silhouette Score**.  
+- Segmented customers into **3 behavior-based groups**.  
+- Analyzed **lifestage & premium category** distribution in clusters.  
 
 ## 📊 Visualizations
 - **Scatter Plot:** Customer segments based on total transactions & spending  

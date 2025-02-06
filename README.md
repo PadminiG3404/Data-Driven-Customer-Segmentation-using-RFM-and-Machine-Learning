@@ -2,6 +2,7 @@
 
 ## 📌 Project Overview
 This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify the most profitable products and the characteristics of the most loyal customers. The insights derived will help the marketing team optimize targeting strategies, enhance product positioning, and maximize profitability.  
+![image](https://github.com/user-attachments/assets/bea3051b-ee6e-401c-a2e9-8e603417e710)
 
 ### **Key Objectives**  
 - Identify the **top 3 most profitable products** based on revenue.  
@@ -13,10 +14,14 @@ This project focuses on segmenting customers based on their purchasing behavior 
 - **Top Selling Products:**  
   1. Dorito Corn Chip Supreme  
   2. Smiths Crinkle Chips (Original)  
-  3. Smiths Crinkle Chips (Salt & Vinegar)  
+  3. Smiths Crinkle Chips (Salt & Vinegar)
+![image](https://github.com/user-attachments/assets/fc145b4a-a034-49f0-b4eb-26d5b363a04f)
+
 - **Most Loyal Customers:**  
   - Older Singles/Couples & Older Families  
-  - Primarily in the **Mainstream & Budget** segments  
+  - Primarily in the **Mainstream & Budget** segments
+![image](https://github.com/user-attachments/assets/08019875-bdd8-4184-802d-32a92c024c47)
+
 - **Spending Patterns:**  
   - Older families in the budget segment are the highest spenders.  
   - Younger singles spend the least.  
@@ -31,11 +36,12 @@ This project focuses on segmenting customers based on their purchasing behavior 
 ## 📂 Dataset Description  
 
 ### 1️⃣ Customer Purchase Behavior 
-**`purchase_behaviour.csv`**[Uploading purchase_behaviour.csv…]()
- - Contains customer demographic details based on loyalty card usage.  
+**`purchase_behaviour.csv`** - Contains customer demographic details based on loyalty card usage.  
 
 ### 2️⃣ Transaction Data
-**`transaction_data.csv`** – Records all customer transactions, including products purchased and spending details.  
+**`transaction_data.csv`** - Records all customer transactions, including products purchased and spending details.  
+
+===
 
 ## 🛠️ Methodology  
 
@@ -62,11 +68,22 @@ This project focuses on segmenting customers based on their purchasing behavior 
 - Segmented customers into **3 behavior-based groups**.  
 - Analyzed **lifestage & premium category** distribution in clusters.  
 
+--- 
+
 ## 📊 Visualizations
-- **Scatter Plot:** Customer segments based on total transactions & spending  
-- **3D Plot:** RFM-based customer segmentation  
-- **Bar Charts:** Spending analysis per cluster  
+- **Scatter Plot:** Customer segments based on total transactions & spending
+![image](https://github.com/user-attachments/assets/00e92661-4ed5-4084-b7e9-fe2f5ab9a70b)
+
+- **3D Plot:** RFM-based customer segmentation
+![image](https://github.com/user-attachments/assets/5c5ef498-49ae-413a-b622-1343c019ba84)
+
+- **Bar Charts:** Spending analysis per cluster
+![image](https://github.com/user-attachments/assets/194c4969-914f-43ba-972e-a8356fe22bb5)
+
 - **Heatmap:** Spending patterns by **LIFESTAGE** & **PREMIUM_CUSTOMER**  
+![image](https://github.com/user-attachments/assets/6fa94d7f-9a96-484d-9185-5c0527f9b5a6)
+
+===
 
 ## 🛠️ Tech Stack
 - **Programming Language:** Python 🐍  
@@ -75,7 +92,9 @@ This project focuses on segmenting customers based on their purchasing behavior 
   - `numpy` - Numerical computing  
   - `matplotlib` & `seaborn` - Data visualization  
   - `scikit-learn` - Machine learning (K-Means, StandardScaler)
- 
+
+---
+
 ## 📌 Usage
 
 ### 1️⃣ Run the Jupyter Notebook
@@ -106,4 +125,11 @@ jupyter notebook customer_segmentation.ipynb
 ### 4️⃣ Modify & Experiment:  
 - Adjust the **number of clusters** in K-Means (`n_clusters=3`).  
 - Try **different clustering techniques** (Hierarchical, DBSCAN).  
-- Tune **feature scaling** and analyze the impact.  
+- Tune **feature scaling** and analyze the impact.
+
+---
+
+## **Next Steps**  
+- Implement **personalized marketing campaigns** for high-value customer segments.  
+- Introduce **bundling strategies** for best-selling products.  
+- Expand **customer loyalty programs** to encourage repeat purchases.  

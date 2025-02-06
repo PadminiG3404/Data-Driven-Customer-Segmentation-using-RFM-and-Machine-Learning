@@ -1,14 +1,14 @@
-# Data-Driven-Customer-Segmentation-using-RFM-and-Machine-Learning
+# Data Driven Customer Segmentation using RFM and Machine Learning
 
 ## 📌 Project Overview
 This project focuses on segmenting customers based on their purchasing behavior using **RFM analysis** and **K-Means clustering**. The goal is to identify distinct customer groups to improve targeted marketing strategies and enhance customer retention.
 
 ## 📂 Dataset Description  
 
-### 1️⃣ Customer Purchase Behavior (`purchase_behaviour`)  
+### 1️⃣ Customer Purchase Behavior 
 **`purchase_behaviour.csv`** - Contains customer demographic details based on loyalty card usage.  
 
-### 2️⃣ Transaction Data (`transaction_data`)  
+### 2️⃣ Transaction Data
 - **`transaction_data.csv`** – Records all customer transactions, including products purchased and spending details.  
 
 ## 🛠️ Methodology  
